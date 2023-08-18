@@ -1,0 +1,22 @@
+.featured_item_wrapper {
+  position: relative;
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 66px;
+}
+
+.featured_item_image {
+  width: 100%;
+}
+
+.featured_item_text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: black;
+}

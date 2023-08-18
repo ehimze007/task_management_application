@@ -1,0 +1,19 @@
+/* Root settings */
+
+:root {
+  /* Variables */
+  --primary-color: #ff4f5a;
+  --border-color: #e7e7e7;
+  --gray-bg: #f4f4f4e0;
+  --gray-dark: #6b6b6b;
+  --gray-light: #737373;
+
+  font-family: "Roboto";
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

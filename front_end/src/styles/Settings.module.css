@@ -1,0 +1,13 @@
+.main {
+  max-width: 1048px;
+  min-height: 80vh;
+  padding: 35px 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  font-size: 64px;
+  color: var(--primary-color);
+}

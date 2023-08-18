@@ -1,0 +1,29 @@
+.last_section {
+  position: relative;
+  max-width: 1072px;
+  margin: 0 auto;
+  padding: 200px 0 172px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+.last_section > * {
+  width: 50%;
+}
+
+.last_section_article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.last_section_article h2 {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: black;
+}

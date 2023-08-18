@@ -1,0 +1,153 @@
+.main {
+  padding: 37px 47px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.page_title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--primary-color);
+}
+
+.page_subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #414141;
+}
+
+.todo_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add_task_button {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.add_task_button:hover {
+  background-color: #f3f3f3;
+}
+
+.add_task_button img {
+  width: 28px;
+  height: 28px;
+}
+
+.add_task_button p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--primary-color);
+}
+
+.add_todo_form {
+  max-width: 1048px;
+  margin-left: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.add_todo_form_inputs {
+  display: flex;
+  flex-direction: column;
+  background: rgba(244, 244, 244, 0.88);
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+}
+
+.add_todo_form_inputs input,
+.add_todo_form_inputs textarea {
+  padding: 9px 17px;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+}
+
+.add_todo_form_inputs input::placeholder,
+.add_todo_form_inputs textarea::placeholder {
+  color: #bcbcbc;
+}
+
+.add_todo_form_inputs input:focus,
+.add_todo_form_inputs textarea:focus {
+  outline: none;
+}
+
+.add_todo_form_inputs textarea {
+  padding: 5px 17px;
+  border-top: 1px solid #e7e7e7;
+  resize: none;
+}
+
+.add_todo_form_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calendar_wrapper {
+  max-width: 1087px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.calendar_wrapper > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.days_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 0 28px;
+}
+
+.days_wrapper div {
+  width: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.days_wrapper div:hover {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+
+.days_wrapper div.current_day {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.days_wrapper div p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: var(--primary-color);
+}

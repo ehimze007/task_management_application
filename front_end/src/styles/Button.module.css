@@ -1,0 +1,50 @@
+.button {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 5px;
+  padding: 7px 29px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button_sm {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  padding: 8px 45px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button_outlined {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+}
+
+.button:hover,
+.button_sm:hover {
+  background-color: #df3642;
+}
+
+.button:focus,
+.button_sm:focus {
+  outline: #df3642 solid 3px;
+  outline-offset: 2px;
+}
+
+.button_outlined:hover {
+  background-color: rgba(0, 0, 0, 0.035);
+}

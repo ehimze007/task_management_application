@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1072px;
+  margin: 0 auto;
+  padding: 40px 0 213px;
+  border-top: 1px solid var(--primary-color);
+}
+
+.about {
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.description {
+  display: flex;
+  gap: 28px;
+}
+
+.description img {
+  width: 56px;
+  height: 56px;
+}
+
+.description p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.address p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.address p:nth-child(2) {
+  color: var(--gray-light);
+}
+
+.links_wrapper {
+  display: flex;
+  gap: 141px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.links p {
+  margin-bottom: 23px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--primary-color);
+}
+
+.links nav {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--gray-light);
+}
